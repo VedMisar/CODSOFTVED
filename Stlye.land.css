@@ -1,0 +1,245 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+.continear{
+    background: url("image/bg.jpg") no-repeat top left / cover;
+    
+    height: 100vh;
+
+}
+
+/* Header Section */
+header {
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    cursor: none;
+
+}
+
+
+
+
+.navbar ul {
+     justify-content: center;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    
+
+}
+
+.navbar ul li {
+    margin: 0 5px;
+}
+
+.navbar ul li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background: grey;
+    transition: all .5s ease-out;
+    background-position: right bottom ;
+}
+
+.navbar ul li a:hover {
+
+  background-color: black;
+  border: solid blueviolet;
+  border-radius: 5px;
+  background-position: left bottom;
+   
+}
+
+ .input{
+    border: none;
+    border-radius: 5px;
+    float: left;
+    padding: 8px;
+    font-size: 17px;
+    
+}
+a i:hover {
+   background-color: black;
+}
+
+
+
+
+/* Main Section */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  
+    background-size: cover;
+    background-position: center;
+}
+.hero{
+    width: 100%;
+    border-left: solid rgb(86, 64, 64);
+    padding-left: 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    
+    font-size: 62px;
+    color: white;
+}
+.shadow{
+    text-shadow: 2px 2px rgb(86, 64, 64);
+}
+
+
+.hero p {
+    font-size: 18px;
+    color: rgb(205, 218, 255);
+    margin-bottom: 30px ;
+    color: white;
+}
+
+.button {
+    padding: 10px 20px;
+    background: linear-gradient(to right,rgb(84, 161, 26) 50%,white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: rgb(63, 203, 38);
+    font-weight: bold;
+    border: solid 4px ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-decoration-color: black;
+    box-shadow: 2px 2px rgb(32, 34, 36);
+
+    transition: all .5s ease-out;
+}
+
+.button:hover {
+    background-position: left bottom;
+    color: white;
+}
+
+/* About */
+.about{
+    height: 100%;
+    width: 99%;
+    display: flex;
+    
+}
+
+.abo-img{
+    margin-top: 10px;
+    margin-left:  250px;
+    width: 500px;
+
+}
+.abo-text{
+    margin-top: 110px;
+    width: 600px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    
+  
+    transform: translate(-100px);
+}
+.abo-img2{
+    justify-content: center;
+    
+    display: flex;
+}
+.abo-img2 img{
+    width: 250px;
+   margin: 22px;
+
+
+}
+
+/* Services */
+.Services{
+    margin-top: 300px;
+    
+    width: 100%;
+   
+}
+.ser-bigbox{
+   
+    display: flex;
+    justify-content: center;
+}
+.ser-box:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 10px 15px blue;
+}
+.ser-box{
+
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    transition: all .5s ease-out;
+}
+.ser-box p{
+    margin: 50px;
+}
+
+.sre-v{
+    margin-top: 90px;
+    padding: 10px 20px;
+    background: linear-gradient(to right,rgb(84, 161, 26) 50%,white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: rgb(63, 203, 38);
+    font-weight: bold;
+    border: solid 4px ;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-decoration-color: black;
+    box-shadow: 2px 2px rgb(32, 34, 36);
+
+    transition: all .5s ease-out;
+
+}
+.mar{
+    margin-top: 90px;
+}
+
+.sre-v:hover {
+    background-position: left bottom;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 300px;
+    text-align: center;
+    padding: 10px;
+   
+    color: white;
+}
+
